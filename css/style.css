@@ -31,3 +31,33 @@ h3 {
 a .btn-transp {
   color: #00df5e;
 }
+
+.about p {
+  padding: 1em 0;
+  line-height: 2em;
+  margin: 0 auto;
+  width: 720px;
+  color: #828282;
+  text-align: center;
+  font-size: 1em;
+}
+
+.icon {
+  text-align: center;
+}
+
+.titulo {
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitulo {
+  color: #828282;
+  text-align: center;
+}
+
+.subtitulo a {
+  text-decoration: none;
+  color: #828282;
+}
