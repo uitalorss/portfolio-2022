@@ -61,3 +61,23 @@ a .btn-transp {
   text-decoration: none;
   color: #828282;
 }
+
+.card-projeto {
+  color: #212121;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.titulo-projeto {
+  color: #ffffff;
+  font-size: 1.75em;
+}
+
+.projeto img {
+  width: 350px;
+  height: 200px;
+}
+
+.dados-projeto {
+  color: #828282;
+}
