@@ -1,0 +1,33 @@
+.intro {
+  background-color: #2c2640;
+}
+
+.conteudo {
+  padding: 1.5rem;
+}
+h2,
+h3 {
+  color: #ffffff;
+}
+
+.intro p {
+  font-size: 1.5em;
+  color: #828282;
+}
+.btn-color {
+  background-color: #00df5e;
+}
+
+.btn-transp:hover {
+  border: 2px solid #00df5e;
+  color: #00df5e;
+}
+
+.btn-transp {
+  border: 2px solid #828282;
+  color: #828282;
+}
+
+a .btn-transp {
+  color: #00df5e;
+}
