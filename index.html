@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -18,31 +18,33 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#about">Sobre mim</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#projects">Projetos</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#services">Serviços</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#skills">Minhas skills</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="d-flex ">
+            <ul class="navbar-nav">
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#about">Sobre mim</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#services">Serviços</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#skills">Minhas skills</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
-    <section>
-      <div class="intro bg-dark py-5">
+    <section class="intro bg-dark">
+      <div class="  py-5">
         <div class="container">
           <div class="row conteudo">
-            <div class="col-md-6">
-              <h2>Olá, eu sou Uítalo Souza</h2>
-              <p>Front-end Developer</p>
+            <div class="apresentacao col-md-6">
+              <h2 class="nome">Olá, eu sou Uítalo Souza</h2>
+              <p class="profissao">Front-end Developer</p>
               <div class="pt-2">
                 <a class="btn btn-color me-2" href="curriculo_uitalo.pdf">Download CV</a>
                 <a class="btn btn-transp" href="">Contato</a>
@@ -58,34 +60,39 @@
   </header>
   <section id="about" class="about bg-dark">
     <div class="container">
-      <div class="py-4">
-        <h2 class="text-center">Sobre mim</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+      <h2 class="text-center">Sobre mim</h2>
+      <div class="about-me">
+        <p>Ola!! Me chamo Uítalo Souza, moro em Salvador - BA. Sou graduando em Sistemas de Informação pela UNIFACS e desde 2021 estou trabalhando como desenvolvedor front-end.</p>
+        <p>Atualmente estou estudando, trabalhando e aperfeiçoando meus conhecimento em desenvolvimento de sites e aplicações web, com o objetivo de me tornar um Desenvolvedor Fullstack.</p>
+        <p>Caso deseje um orçamento ou saber mais sobre o meu trabalho, não hesite em entrar em <a href="">contato</a>. ;)</p>
       </div>
-      <div class="py-4 row">
-        <div class="col-md-4">
-          <div class="icon">
-            <img src="img/smile.svg" alt="">
+      <div class="py-4">
+        <div class="row">
+          <div class="col-md-4 pb-2">
+            <div class="icon">
+              <img src="img/smile.svg" alt="">
+            </div>
+            <h5 class="titulo">Meu nome</h5>
+            <h6 class="subtitulo">Uítalo Souza</h6>
           </div>
-          <h5 class="titulo">Meu nome</h5>
-          <h6 class="subtitulo">Uítalo Souza</h6>
-        </div>
-        <div class="col-md-4">
-          <div class="icon">
-            <img src="img/mail.svg" alt="">
+          <div class="col-md-4 pb-2">
+            <div class="icon">
+              <img src="img/mail.svg" alt="">
+            </div>
+            <h5 class="titulo">E-mail</h5>
+            <h6 class="subtitulo">uitalo.urss@gmail.com</h6>
           </div>
-          <h5 class="titulo">E-mail</h5>
-          <h6 class="subtitulo">uitalo.urss@gmail.com</h6>
-        </div>
-        <div class="col-md-4">
-          <div class="icon">
-            <img src="img/instagram.svg" alt="">
+          <div class="col-md-4 pb-2">
+            <div class="icon">
+              <img src="img/instagram.svg" alt="">
+            </div>
+            <h5 class="titulo">Instagram</h5>
+            <h6 class="subtitulo"><a href="http://instagram.com/uitallorss">@uitallorss</a></h6>
           </div>
-          <h5 class="titulo">Instagram</h5>
-          <h6 class="subtitulo"><a href="http://instagram.com/uitallorss">@uitallorss</a></h6>
         </div>
       </div>
     </div>
+
   </section>
 
   <section id="projects" class="projects bg-dark pb-5">
@@ -107,24 +114,27 @@
           <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript, bootstrap</p>
         </div>
         <div class="card-projeto mb-4 col-md-4">
-          <div class="projeto mb-2"><a href="https://quizbaianidades.vercel.app/" target="_blank"><img src="img/portfolio.png" alt=""></a></div>
-          <h4 class="titulo-projeto">Portfolio</h4>
-          <p class="dados-projeto">Antigo portfolio desenvolvido por mim.</p>
-          <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript, bootstrap</p>
+          <div class="projeto mb-2"><a href="https://site-bikcraft-2628efuqs-uitallorss.vercel.app/index.html" target="_blank"><img src="img/bikcraft.png" alt=""></a></div>
+          <h4 class="titulo-projeto">Bikcraft</h4>
+          <p class="dados-projeto">Projeto desenvolvido durante o curso de Desenvolvimento web da Origamid.</p>
+          <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript</p>
         </div>
         <div class="card-projeto mb-4 col-md-4">
-          <div class="projeto mb-2"><a href="https://quizbaianidades.vercel.app/" target="_blank"><img src="img/quiz-baianidades.png" alt=""></a></div>
-          <h4 class="titulo-projeto">Quiz Baianidades</h4>
-          <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript, React</p>
+          <div class="projeto mb-2"><a href="https://jogo-velha-2-67cjipc1d-uitallorss.vercel.app/" target="_blank"><img src="img/jogo-da-velha.png" alt=""></a></div>
+          <h4 class="titulo-projeto">Jogo da Velha 2.0</h4>
+          <p class="dados-projeto">Projeto desenvolvido na Faculdade para observar a tomada de decisão da inteligência artificial</p>
+          <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript</p>
         </div>
         <div class="card-projeto mb-4 col-md-4">
-          <div class="projeto mb-2"><a href="https://uitalorss.github.io/site-brafe/" target="_blank"><img src="img/brafe.png" alt=""></a></div>
+          <div class="projeto mb-2"><a href="https://uitalorss.github.io/site-caravan/" target="_blank"><img src="img/caravan.png" alt=""></a></div>
           <h4 class="titulo-projeto">Brafé</h4>
+          <p class="dados-projeto">Projeto desenvolvido durante o curso avançado de Bootstrap</p>
           <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript, bootstrap</p>
         </div>
         <div class="card-projeto mb-4 col-md-4">
-          <div class="projeto mb-2"><a href="https://quizbaianidades.vercel.app/" target="_blank"><img src="img/portfolio.png" alt=""></a></div>
+          <div class="projeto mb-2"><a href="https://portfolio-uitalorss.vercel.app/" target="_blank"><img src="img/portfolio.png" alt=""></a></div>
           <h4 class="titulo-projeto">Portfolio</h4>
+          <p class="dados-projeto">Meu antigo site</p>
           <p class="dados-projeto">Tecnologias: HTML, CSS, Javascript, bootstrap</p>
         </div>
       </div>
@@ -179,10 +189,10 @@
       <p>Orgulhosamente desenvolvido por <a href="https://www.linkedin.com/in/uitalorss/" target="_blank">Uítalo Souza</a></p>
     </div>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
