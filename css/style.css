@@ -2,12 +2,6 @@
   padding: 3em 0 5em 0;
 }
 
-@media screen and (max-width: 720px) {
-  .intro {
-    padding: 2em 0 3em 0;
-  }
-}
-
 .conteudo {
   margin: 4rem 0;
 }
@@ -23,6 +17,16 @@ h3 {
 
 .img-intro {
   margin-right: 2.5em;
+}
+
+@media screen and (max-width: 720px) {
+  .intro {
+    padding: 2em 0 3em 0;
+  }
+
+  .img-intro {
+    margin-right: 0;
+  }
 }
 
 .apresentacao {
@@ -111,8 +115,7 @@ a .btn-transp {
 }
 
 .projeto img {
-  width: 350px;
-  height: 200px;
+  width: 100%;
 }
 
 .dados-projeto {
