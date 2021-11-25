@@ -10,7 +10,6 @@ function typing(elemento){
   text.forEach((letra, i) => {
     setTimeout(function(){
       elemento.innerHTML += letra;
-    }, 100 * i)
+    }, 75 * i)
   });
-  console.log(text)
 }
