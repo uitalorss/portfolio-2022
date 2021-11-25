@@ -129,12 +129,17 @@ a .btn-transp {
 
 .card-servicos {
   width: 350px;
-  height: 200px;
   background-color: #212121;
   border: 0.5px solid #2c2640;
   border-bottom: 3px solid #00df5e;
   margin: 0 auto 2em auto;
   padding: 1em;
+}
+
+@media screen and (max-width: 720px) {
+  .card-servicos {
+    width: 80%;
+  }
 }
 
 .card-servicos img {
