@@ -47,6 +47,11 @@ h3 {
   color: #828282;
 }
 
+.btn-img {
+  border: 2px solid #828282;
+  padding: 0;
+}
+
 a .btn-transp {
   color: #00df5e;
 }
